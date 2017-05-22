@@ -89,7 +89,6 @@ Konkret sollen Sie erstellen
 <li>Beim Start der Anwendung soll man als Eingabe eine Datei wählen können</li>
 </ul>
 
-<p>Liefern Sie bitte eine ZIP-Datei per E-Mail an jobs@blubbsoft.de, die folgendes enthält </p>
 <ul>
 <li>Den Quellcode des Programms</li>
 <li>Die obigen Fragebögen als Eingabedatei</li>
