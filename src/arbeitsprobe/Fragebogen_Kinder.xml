@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Arbeitsprobe Fragebogen Kinder
+-->
+
+<fragebogen>
+    <frage nummer="1" inhalt="Haben Sie Kinder?" multi="no" needKeyword="">
+        <antwort keyword="kind">Ja</antwort>
+        <antwort keyword="">Nein</antwort>
+    </frage>
+    <frage nummer="2" inhalt="Wie viele Kinder haben Sie?" multi="no" needKeyword="kind">
+        <antwort keyword="">1</antwort>
+        <antwort keyword="">2</antwort>
+        <antwort keyword="">3</antwort>
+        <antwort keyword="">4</antwort>
+        <antwort keyword="">5</antwort>
+        <antwort keyword="">mehr</antwort>
+    </frage>
+    <frage nummer="3" inhalt="Welche Einrichtungen besuchen Ihre Kinder?" multi="yes" needKeyword="kind">
+        <antwort keyword="">Kindergarten</antwort>
+        <antwort keyword="schule">Schule</antwort>
+        <antwort keyword="">Sportverein</antwort>
+    </frage>
+    <frage nummer="4" inhalt="Wie zufrieden sind sie mit dem Schulessen in Bezug auf...." multi="no" needKeyword="schule">
+        <kategorie name="Preis">
+            <antwort keyword="">Sehr zufrieden</antwort>
+            <antwort keyword="">Einigermaßen zufrieden</antwort>
+            <antwort keyword="">Unzufrieden</antwort>
+            <antwort keyword="">Sehr unzufrieden </antwort>
+        </kategorie>
+        <kategorie name="Qualität">
+            <antwort keyword="">Sehr zufrieden</antwort>
+            <antwort keyword="">Einigermaßen zufrieden</antwort>
+            <antwort keyword="">Unzufrieden</antwort>
+            <antwort keyword="">Sehr unzufrieden </antwort>
+        </kategorie>    
+    </frage>
+    <frage nummer="5" inhalt="In welchem Stadtteil wohnen Sie?" multi="no" needKeyword="">
+        <antwort keyword="">Mitte</antwort>
+        <antwort keyword="">Friedrichshain-Kreuzberg</antwort>
+        <antwort keyword="">Pankow</antwort>
+        <antwort keyword="">Charlottenburg-Wilmersdorf</antwort>
+        <antwort keyword="">Spandau</antwort>
+        <antwort keyword="">Steglitz-Zehlendorf</antwort>
+        <antwort keyword="">Tempelhof-Schöneberg</antwort>
+        <antwort keyword="">Neukölln</antwort>
+        <antwort keyword="">Treptow-Köpenick</antwort>
+        <antwort keyword="">Marzahn-Hellersdorf</antwort>
+        <antwort keyword="">Lichtenberg</antwort>
+        <antwort keyword="">Reinickendorf</antwort>
+    </frage>
+</fragebogen>
+            

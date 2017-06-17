@@ -1,0 +1,21 @@
+Als Grundlage für die Arbeitsprobe habe ich mich für die Fragebögen zu einem
+XML-Format entschieden. 
+Als Rootwurzel wird <fragebogen> verwendet.
+Als Child von <fragebogen> wurde <frage> mit den 3 Attributen
+- needKeyword (Angabe, welches Schlüsselwort die Frage benötigt, "" steht für kein Schlüsselwort benötigt.)
+- multi (no besagt, dass keine Mehrfachantwort möglich ist, yes besagt, dass Mehrfachantworten möglich sind)
+- inhalt (Hier steht der Fragetext)
+- nummer (Hier steht die fortlaufende Fragenummer)
+Diese 4 Attribute sind zwingend zu setzen.
+
+<frage> muss über das Kindelement <antwort> verfügen oder das Element <kategorie> haben.
+
+Das Element antwort besteht aus 1 Attributen. 
+- Keyword setzt ein Schlüsselwort, welches gesetzt wird, wenn die Antwortmöglichkeit gewählt wird. Soll kein
+  Schlüsselwort gesetzt werden, wird keyword mit "" gesetzt.
+Als Element wird die Antwortmöglichkeit gesetzt.
+
+Wenn eine Unterteilung der Antwortmöglichkeiten auf verschiedene Kategorien erfolgen soll, so wird das Element
+kategorie mit dem Attribut name verwendet. Das Attribut gibt an, welcher Name im Fragebogen als Kategorie angezeigt wird.
+
+Um Fehler bei der Erstellung eines Fragebogens zu vermeiden, könnte noch eine XLS erstellt werden.

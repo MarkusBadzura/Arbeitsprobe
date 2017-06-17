@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Arbeitsprobe Fragebogen Verkehrsmittel
+-->
+
+<fragebogen>
+    <frage nummer="1" inhalt="Mit welchen Verkehrsmitteln fahren Sie zur Arbeit?" multi="yes" needKeyword="">
+        <antwort keyword="">Fahrrad</antwort>
+        <antwort keyword="auto">Auto</antwort>
+        <antwort keyword="öpnv">Bus</antwort>
+        <antwort keyword="">zu Fuß</antwort>
+        <antwort keyword="öpnv">U-Bahn</antwort>
+        <antwort keyword="öpnv">Regionalzug</antwort>
+        <antwort keyword="">keinem von diesen</antwort>
+    </frage>
+    <frage nummer="2" inhalt="Welche Fahrscheinart benutzen Sie hauptsächlich, wenn Sie mit öffentlichen Verkehrsmitteln zur Arbeit fahren?" multi="no" needKeyword="öpnv">
+        <antwort keyword="">Monatskarte</antwort>
+        <antwort keyword="">4-Fahrten-Karte</antwort>
+        <antwort keyword="">Einzelkarte</antwort>
+        <antwort keyword="">fahre schwarz</antwort>
+        <antwort keyword="">keine Angabe</antwort>
+    </frage>
+    <frage nummer="3" inhalt="Wie häufig kommen Sie wegen des ÖPNV zu spät auf Arbeit?" multi="no" needKeyword="öpnv">
+        <antwort keyword="">nie</antwort>
+        <antwort keyword="">fast nie</antwort>
+        <antwort keyword="">gelegentlich</antwort>
+        <antwort keyword="">häufig</antwort>
+        <antwort keyword="">ständig</antwort>     
+    </frage>
+    <frage nummer="4" inhalt="Nutzen Sie dazu ihr eigenes Auto oder einen Dienstwagen?" multi="no" needKeyword="auto">
+        <antwort keyword="">eigenes Auto</antwort>
+        <antwort keyword="">Dienstwagen</antwort>
+    </frage>
+</fragebogen>
